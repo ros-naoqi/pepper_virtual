@@ -19,7 +19,7 @@
   <run_depend>gazebo_plugins</run_depend>
   <run_depend>gazebo_ros</run_depend>
   <run_depend>gazebo_ros_control</run_depend>
-  <run_depend>pepper_dcm_controllers</run_depend>
+  <run_depend>pepper_dcm_control</run_depend>
   <run_depend>pepper_description</run_depend>
   <run_depend>ros_control</run_depend>
   <run_depend>ros_controllers</run_depend>

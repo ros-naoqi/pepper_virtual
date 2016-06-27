@@ -11,9 +11,9 @@
 
   <!-- Call Pepper Robot Trajectory Controller -->
 
-  <include file="$(find pepper_dcm_controllers)/launch/pepper_control_trajectory.launch"/>
+  <include file="$(find pepper_dcm_control)/launch/pepper_control_trajectory.launch"/>
 <!--
-  <include file="$(find pepper_dcm_controllers)/launch/pepper_control_position.launch"/>
+  <include file="$(find pepper_dcm_control)/launch/pepper_control_position.launch"/>
 -->
   <!-- Spawn a robot into Gazebo -->
   <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model"
