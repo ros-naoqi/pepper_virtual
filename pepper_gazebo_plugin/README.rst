@@ -10,7 +10,7 @@ The package requires pepper_description, pepper_meshes and pepper_control packag
 
 .. code-block:: bash
 
-    sudo apt-get install ros-indigo-pepper-description ros-indigo-pepper-meshes
+    sudo apt-get install ros-indigo-pepper-description ros-indigo-pepper-meshes ros-indigo-pepper-control
 
 Other plugins to fetch and compile:
 
