@@ -6,7 +6,7 @@ Package developed against ROS Indigo and default gazebo (gazebo 2.2.3)
 Dependencies
 ------------
 
-The package requires pepper_description, pepper_meshes and pepper_dcm_control packages
+The package requires pepper_description, pepper_meshes and pepper_control packages
 
 .. code-block:: bash
 
