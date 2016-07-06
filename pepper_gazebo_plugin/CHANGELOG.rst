@@ -2,8 +2,8 @@
 Changelog for package pepper_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2016-07-06)
+------------------
 * fixing install in CMakeLists
 * updating README
 * Contributors: nlyubova
