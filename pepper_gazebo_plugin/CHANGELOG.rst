@@ -2,6 +2,12 @@
 Changelog for package pepper_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fixing install in CMakeLists
+* updating README
+* Contributors: nlyubova
+
 0.0.1 (2016-07-06)
 ------------------
 * moving pepper_gazebo_plugin to pepper_virtual
