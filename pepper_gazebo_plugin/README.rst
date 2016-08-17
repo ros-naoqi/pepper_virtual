@@ -8,6 +8,8 @@ Dependencies
 
 The package requires pepper_description, pepper_meshes and pepper_control packages
 
+NOTE: `pepper_meshes` needs to be **manually** installed; `apt`, `rosdep` or any package management tools does not handle the dependency to it. See `a relevant discussion <https://github.com/ros-naoqi/pepper_robot/pull/14>`_.
+
 .. code-block:: bash
 
     sudo apt-get install ros-indigo-pepper-description ros-indigo-pepper-meshes ros-indigo-pepper-control
