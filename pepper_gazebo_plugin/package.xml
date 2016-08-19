@@ -10,8 +10,8 @@
 
   <license>Apache 2.0</license>
 
-  <url type="bugtracker">https://github.com/ros-naoqi/pepper_gazebo_plugin/issues</url>
-  <url type="repository">https://github.com/ros-naoqi/pepper_gazebo_plugin.git</url>
+  <url type="bugtracker">https://github.com/ros-naoqi/pepper_virtual/issues</url>
+  <url type="repository">https://github.com/ros-naoqi/pepper_virtual.git</url>
 
   <build_depend>gazebo_ros</build_depend>
   <build_depend>pepper_description</build_depend>
