@@ -6,7 +6,7 @@ Package developed against ROS Indigo and default gazebo (gazebo 2.2.3)
 Dependencies
 ------------
 
-The package requires pepper_description, pepper_meshes and pepper_control packages
+The package requires Gazebo and robot-specific packages, such as pepper_description, pepper_meshes, and pepper_control packages
 
 NOTE: `pepper_meshes` needs to be **manually** installed; `apt`, `rosdep` or any package management tools does not handle the dependency to it. See `a relevant discussion <https://github.com/ros-naoqi/pepper_robot/pull/14>`_.
 
@@ -17,10 +17,8 @@ NOTE: `pepper_meshes` needs to be **manually** installed; `apt`, `rosdep` or any
 Other plugins to fetch and compile:
 
 .. code-block:: bash
-    
+
     git clone git@github.com:roboticsgroup/roboticsgroup_gazebo_plugins.git
-    git clone git@github.com:pal-robotics/pal_msgs.git
-    git clone git@github.com:pal-robotics/pal_gazebo_plugins.git
     catkin_make
 
 Please also make sure that the package and all the dependencies are up to date
@@ -28,7 +26,7 @@ Please also make sure that the package and all the dependencies are up to date
 .. code-block:: bash
     
     sudo apt-get update
-
+    sudo apt-get install ros-indigo-pepper-gazebo-plugin
 
 How to run it
 -------------
