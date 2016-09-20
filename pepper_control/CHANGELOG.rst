@@ -2,6 +2,11 @@
 Changelog for package pepper_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* changes in the launch file
+* Contributors: nlyubova
+
 0.0.2 (2016-07-06)
 ------------------
 

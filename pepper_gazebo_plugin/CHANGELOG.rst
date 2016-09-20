@@ -2,6 +2,13 @@
 Changelog for package pepper_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update README.rst
+* Update package.xml
+* [doc] Add note for the dependency that needs manually added.
+* Contributors: Isaac I.Y. Saito, Natalia Lyubova
+
 0.0.2 (2016-07-06)
 ------------------
 * fixing install in CMakeLists
