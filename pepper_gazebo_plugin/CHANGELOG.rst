@@ -2,8 +2,8 @@
 Changelog for package pepper_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2016-09-20)
+------------------
 * Update README.rst
 * Update package.xml
 * [doc] Add note for the dependency that needs manually added.
