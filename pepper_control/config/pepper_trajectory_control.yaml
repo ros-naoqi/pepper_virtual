@@ -40,9 +40,14 @@ pepper_dcm:
     type: position_controllers/JointTrajectoryController
     joints:
       - RHand
-  Wheels_controller:
-    type: position_controllers/JointTrajectoryController
-    joints:
-      - WheelFL
-      - WheelB
-      - WheelFR                  
+
+  # Effort Controllers ---------------------------------------
+  WheelFL_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelFL
+  WheelFR_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelFR
+  WheelB_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelB
