@@ -73,14 +73,13 @@ pepper_dcm:
     type: position_controllers/JointPositionController
     joint: KneePitch
     
-  WheelB_position_controller:
-    type: position_controllers/JointPositionController
-    joint: WheelB
-    
-  WheelFL_position_controller:
-    type: position_controllers/JointPositionController
+  # Effort Controllers ---------------------------
+  WheelFL_controller:
+    type: effort_controllers/JointEffortController
     joint: WheelFL
-    
-  WheelFR_position_controller:
-    type: position_controllers/JointPositionController
+  WheelFR_controller:
+    type: effort_controllers/JointEffortController
     joint: WheelFR
+  WheelB_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelB
