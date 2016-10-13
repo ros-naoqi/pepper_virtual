@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <launch>
+  <arg name="launch_control_trajectory_all" default="true"/>
   <!-- Load the URDF Model -->
   <include file="$(find pepper_description)/launch/pepper_upload.launch" />  
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
@@ -11,7 +12,8 @@
 
   <!-- Call Pepper Robot Trajectory Controller -->
 
-  <include file="$(find pepper_control)/launch/pepper_control_trajectory.launch"/>
+  <include file="$(find pepper_control)/launch/pepper_control_trajectory.launch" unless="$(arg launch_control_trajectory_all)"/>
+  <include file="$(find pepper_control)/launch/pepper_control_trajectory_all.launch" if="$(arg launch_control_trajectory_all)"/>
 <!--
   <include file="$(find pepper_control)/launch/pepper_control_position.launch"/>
 -->
