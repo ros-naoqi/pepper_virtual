@@ -16,5 +16,7 @@
 <!--
       /pepper_dcm/Head_controller
       /pepper_dcm/Pelvis_controller
-      /pepper_dcm/Wheels_controller
+      /pepper_dcm/WheelFL_controller
+      /pepper_dcm/WheelFR_controller
+      /pepper_dcm/WheelB_controller
 -->
