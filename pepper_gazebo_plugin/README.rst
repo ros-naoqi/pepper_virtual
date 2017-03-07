@@ -19,6 +19,8 @@ Other plugins to fetch and compile:
 .. code-block:: bash
 
     git clone https://github.com/roboticsgroup/roboticsgroup_gazebo_plugins.git
+    git clone https://github.com/pal-robotics/pal_msgs.git
+    git clone https://github.com/pal-robotics/pal_gazebo_plugins.git
     catkin_make
 
 Please also make sure that the package and all the dependencies are up to date
