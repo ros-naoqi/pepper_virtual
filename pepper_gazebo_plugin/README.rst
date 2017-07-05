@@ -30,6 +30,24 @@ Please also make sure that the package and all the dependencies are up to date
     sudo apt-get update
     sudo apt-get install ros-indigo-pepper-gazebo-plugin
 
+If you prefer to install from source, then
+
+* install additional dependencies:
+
+.. code-block:: bash
+
+    sudo apt-get install ros-indigo-gazebo-ros ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control ros-indigo-humanoid-nav-msgs ros-indigo-effort-controllers ros-indigo-joint-trajectory-controller
+
+* clone the code and compile
+
+.. code-block:: bash
+
+    cd src
+    git clone https://github.com/ros-naoqi/pepper_virtual.git
+    cd ..
+    catkin_make
+
+
 How to run it
 -------------
 
