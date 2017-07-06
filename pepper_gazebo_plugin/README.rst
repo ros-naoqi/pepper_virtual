@@ -36,7 +36,7 @@ If you prefer to install from source, then
 
 .. code-block:: bash
 
-    sudo apt-get install ros-indigo-gazebo-ros ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control ros-indigo-humanoid-nav-msgs ros-indigo-effort-controllers ros-indigo-joint-trajectory-controller
+    sudo apt-get install ros-indigo-gazebo-ros ros-indigo-gazebo-ros-pkgs ros-indigo-gazebo-ros-control ros-indigo-effort-controllers ros-indigo-joint-trajectory-controller
 
 * clone the code and compile
 
