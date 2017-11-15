@@ -14,6 +14,7 @@
       /pepper_dcm/RElbowYaw_position_controller /pepper_dcm/RElbowRoll_position_controller /pepper_dcm/RWristYaw_position_controller 
       /pepper_dcm/LHand_position_controller /pepper_dcm/RHand_position_controller      
       /pepper_dcm/HipRoll_position_controller /pepper_dcm/HipPitch_position_controller /pepper_dcm/KneePitch_position_controller 
-      /pepper_dcm/WheelB_controller /pepper_dcm/WheelFL_controller /pepper_dcm/WheelFR_controller
       /pepper_dcm/joint_state_controller"/>
 </launch>
+
+<!-- /pepper_dcm/WheelB_controller /pepper_dcm/WheelFL_controller /pepper_dcm/WheelFR_controller -->
