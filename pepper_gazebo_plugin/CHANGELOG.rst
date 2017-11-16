@@ -2,8 +2,8 @@
 Changelog for package pepper_gazebo_plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2017-11-16)
+------------------
 * Merge pull request `#13 <https://github.com/ros-naoqi/pepper_virtual/issues/13>`_ from nlyubova/master
   updating README
 * removing ros-indigo-humanoid-nav-msgs from README

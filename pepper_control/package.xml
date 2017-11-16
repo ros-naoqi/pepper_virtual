@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>pepper_control</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>Control for Pepper robot</description>
 
   <author email="mikael.arguedas@gmail.com">Mikael Arguedas</author>

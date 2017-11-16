@@ -2,8 +2,8 @@
 Changelog for package pepper_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2017-11-16)
+------------------
 * removing wheels controllers
 * adding Pelvis controller
 * adding head controller
