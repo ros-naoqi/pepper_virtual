@@ -2,6 +2,17 @@
 Changelog for package pepper_control
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* removing wheels controllers
+* adding Pelvis controller
+* adding head controller
+* fixed wheels controllers names
+* fixing wheels controllers in position_control
+* ading a launch file for all controllers
+* fixing wheels controllers
+* Contributors: Natalia Lyubova
+
 0.0.3 (2016-09-20)
 ------------------
 * changes in the launch file
